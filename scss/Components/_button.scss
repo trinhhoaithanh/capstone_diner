@@ -1,0 +1,4 @@
+.btn-white {
+    @include styleButton($color-white-0, transparent, $bg-color-0, $fs-0, $fw-0, $padding-0, $padding-1, $border-radius-0);
+
+}

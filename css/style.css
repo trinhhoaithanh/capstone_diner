@@ -43,3 +43,15 @@
   color: #fff;
   line-height: 28px;
 }
+.btn-white {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 45px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+}
