@@ -27,8 +27,7 @@
   width: 100%;
   height: 100%;
 }
-
-.dinerCarousel .dinerCarousel__content {
+.dinerCarousel .container .dinerCarousel__content {
   position: absolute;
   top: 50%;
 }
