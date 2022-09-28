@@ -5,4 +5,49 @@
     width: 100%;
     height: 100%;
     z-index: 1;
+    
+    .container{
+        
+       .col-8{
+        .logo{
+            h1{
+                color: $color-white-0;
+            }
+        }
+       }
+       .col-2{
+        .search-bar{
+            .search{
+                .search__input{
+
+                }
+                .search__icon{
+
+                }
+            }
+        }
+        .switch{
+
+        }
+        .menu-button{
+            .active-overlay{
+
+            }
+        }
+        .overlay{
+            .overlay-close{
+
+            }
+            nav{
+                ul{
+                    li{
+                        a{
+
+                        }
+                    }
+                }
+            }
+        }
+       }
+    }
 }
