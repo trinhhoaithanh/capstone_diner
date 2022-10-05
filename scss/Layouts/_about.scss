@@ -1,17 +1,23 @@
 .about{
+    margin-top: 100px;
     .container{
         .row{
-            .col-4{
+            .col-5{
                 h3{
-                    color: #FF6600;
+                   @include text($color-orange-0,$fs-heading-c1,$fw-heading-c1);
+                   font-family: 'Pacifico', cursive;
+                   letter-spacing: 1px;
+
                 }
                 h2{
-
+                    @include text($color-black-0,$fs-heading-c2,$fw-heading-c2);
                 }
             }
-            .col-6{
+            .col-7{
                 p{
-
+                    @include text($color-grey-0,$fs-heading-c1,$fw-text);
+                    line-height: 28px;
+                  
                 }
             }
         }

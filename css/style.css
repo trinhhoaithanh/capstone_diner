@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .header {
@@ -47,9 +47,7 @@
   background-attachment: fixed;
   background-position: initial;
   min-height: 700px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -69,9 +67,79 @@
   color: #fff;
   line-height: 28px;
 }
-.about .container .row .col-4 h3 {
-  color: #FF6600;
+.about {
+  margin-top: 100px;
 }
+.about .container .row .col-5 h3 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+}
+.about .container .row .col-5 h2 {
+  color: #232121;
+  font-size: 40px;
+  font-weight: 600;
+}
+.about .container .row .col-7 p {
+  color: #5B606C;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.team .container .team-title {
+  text-align: center;
+}
+.team .container .team-title h3 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+}
+.team .container .team-title h1 {
+  color: #232121;
+  font-size: 40px;
+  font-weight: 600;
+}
+.team .container .team-content .row .col-4 .team-item {
+  position: relative;
+}
+.team .container .team-content .row .col-4 .team-item .team-thumbnail img {
+  width: 100%;
+  border-radius: 6px;
+}
+.team .container .team-content .row .col-4 .team-item .content {
+  text-align: center;
+  margin-top: 24px;
+}
+.team .container .team-content .row .col-4 .team-item .content h3 a {
+  color: #232121;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.team .container .team-content .row .col-4 .team-item .content h3 a:hover {
+  color: #ff6600;
+  font-size: 24px;
+  font-weight: 700;
+}
+.team .container .team-content .row .col-4 .team-item .team-contact {
+  position: absolute;
+  top: 290px;
+  left: 120px;
+}
+.team .container .team-content .row .col-4 .team-item .team-contact i {
+  margin: 0 10px;
+  background-color: rgba(22, 28, 45, 0.7);
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  opacity: 1;
+}
+
 .btn-white {
   color: #fff;
   background-color: transparent;

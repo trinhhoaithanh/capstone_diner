@@ -10,3 +10,8 @@
     text-decoration: none;
     text-transform: capitalize;
 }
+@mixin text($color,$fs,$fw){
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+}
