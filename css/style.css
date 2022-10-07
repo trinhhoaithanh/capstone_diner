@@ -107,6 +107,15 @@
 .team .container .team-content .row .col-4 .team-item {
   position: relative;
 }
+.team .container .team-content .row .col-4 .team-item:hover .content h3 a {
+  color: #ff6600;
+  font-size: 24px;
+  font-weight: 700;
+}
+.team .container .team-content .row .col-4 .team-item:hover .team-contact i {
+  opacity: 1;
+  transition: 0.5s;
+}
 .team .container .team-content .row .col-4 .team-item .team-thumbnail img {
   width: 100%;
   border-radius: 6px;
@@ -121,11 +130,6 @@
   font-weight: 700;
   text-decoration: none;
 }
-.team .container .team-content .row .col-4 .team-item .content h3 a:hover {
-  color: #ff6600;
-  font-size: 24px;
-  font-weight: 700;
-}
 .team .container .team-content .row .col-4 .team-item .team-contact {
   position: absolute;
   top: 290px;
@@ -133,13 +137,52 @@
 }
 .team .container .team-content .row .col-4 .team-item .team-contact i {
   margin: 0 10px;
-  background-color: rgba(22, 28, 45, 0.7);
+  background-color: rgba(157, 157, 157, 0.5);
   color: #fff;
   padding: 12px;
   border-radius: 50%;
-  opacity: 1;
+  opacity: 0;
 }
 
+.menu .container .row .menu-item {
+  padding: 40px;
+  border: 1px solid #eee;
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+}
+.menu .container .row .menu-item:hover {
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
+}
+.menu .container .row .menu-item:hover .item-heading .row .col-3 .icon {
+  background-color: #ff6600;
+  transition: all 1s;
+}
+.menu .container .row .menu-item:hover .item-heading .row .col-3 .icon span {
+  color: #fff;
+  transition: all 1s;
+}
+.menu .container .row .menu-item .item-heading .row .col-3 {
+  text-align: center;
+}
+.menu .container .row .menu-item .item-heading .row .col-3 .icon {
+  background-color: rgba(130, 115, 252, 0.05);
+  border-radius: 6px;
+  width: 85px;
+  height: 85px;
+}
+.menu .container .row .menu-item .item-heading .row .col-3 .icon span {
+  margin: 30px;
+  font-size: 25px;
+  color: #ff6600;
+}
+.menu .container .row .menu-item .item-heading .row .col-9 .info h4 {
+  color: #232121;
+  font-size: 24px;
+  font-weight: 600;
+}
+.menu .container .row .menu-item .item-heading .row .col-9 .info h4:hover {
+  color: #ff6600;
+}
 .btn-white {
   color: #fff;
   background-color: transparent;

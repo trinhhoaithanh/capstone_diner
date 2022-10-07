@@ -1,0 +1,67 @@
+.menu{
+    .container{
+        .row{
+            .menu-item{
+                padding: $padding-40;
+                border: 1px solid $border-light;
+                box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+                border-radius: $border-radius-0;
+                &:hover{
+                    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+                    .item-heading{
+                        .row{
+                            .col-3{
+                                
+                                .icon{
+                                    background-color: $color-orange-0;
+                                    transition: all 1s;
+                                    span{
+                                        color: $color-white-0;
+                                        transition: all 1s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .item-heading{
+                    .row{
+                        .col-3{
+                            text-align: center;
+                            .icon
+                            {
+                                background-color: $bg-light;
+                                border-radius: $border-radius-0;
+                                width: 85px;
+                                height: 85px;
+                                
+                                span{
+                                    margin: $margin-1;
+                                    font-size: $fs-25;
+                                    color: $color-orange-0;
+                                }
+                            }
+                        }
+                        .col-9{
+                            .info{
+                                p{}
+                                h4{
+
+                                    @include text($color-black-0,$fs-2,$fw-heading-c2);
+                                    &:hover{
+                                        color: $color-orange-0;
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                    
+                }
+                .content{
+                    p{}
+                }
+            }
+        }
+    }
+}

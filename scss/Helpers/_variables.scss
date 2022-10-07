@@ -7,6 +7,7 @@ $color-yellow-0: #ffc600;
 $color-grey-0: #5B606C;
 // Background-color
 $bg-color-0: #fff;
+$bg-light: rgba(130, 115, 252, .05);
 
 // Font-size
 $fs-0: 16px;
@@ -15,6 +16,7 @@ $fs-heading-c2:40px;
 $fs-1: 54px;
 $fs-text:18px;
 $fs-2:24px;
+$fs-25:25px;
 
 // Font-weight
 $fw-0: 700;
@@ -24,14 +26,22 @@ $fw-heading-c2:600;
 
 // Line-height 
 $line-height-0: 28px; 
-
+$line-height-70:70px;
 // Padding 
 $padding-0: 12px;
 $padding-1: 45px;
-
+$padding-40:40px;
 // Margin
 $margin-0: 24px;
-
+$margin-1:30px;
 // Border-radius
 $border-radius-0: 6px;
 $border-radius-5:50%;
+//width
+$width-70:70px;
+
+//height
+$height-70:70px;
+
+//border
+$border-light:#eee;

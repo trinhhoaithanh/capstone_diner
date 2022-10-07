@@ -16,6 +16,21 @@
                 .col-4{
                     .team-item{
                         position: relative;
+                        &:hover{
+                            .content{
+                                h3{
+                                    a{
+                                        @include text($color-orange-0,$fs-2,$fw-0);
+                                    }
+                                }
+                            }
+                            .team-contact{
+                                i{
+                                  opacity: 1;
+                                  transition: 0.5s; 
+                                }
+                            }
+                        }
                         .team-thumbnail{
                             img{
                                 width: 100%;
@@ -30,11 +45,7 @@
                                 a{
                                     @include text($color-black-0,$fs-2,$fw-0);
                                     text-decoration: none;
-                                    &:hover{
-                            
-                                        @include text($color-orange-0,$fs-2,$fw-0);
-                                        
-                                    }
+            
                                 }
                             }
                             p{
@@ -47,11 +58,11 @@
                             left: 120px;
                             i{
                                 margin: 0 10px;
-                                background-color: $color-black-1;
+                                background-color: rgba(157, 157, 157, 0.5);;
                                 color: $color-white-0;
                                 padding: $padding-0;
                                 border-radius: $border-radius-5;
-                                opacity: 1  ;
+                               opacity: 0;
                                 
                             }
                         }
