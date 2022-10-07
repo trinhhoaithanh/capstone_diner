@@ -1,0 +1,43 @@
+.contact{
+    .container{
+        .contact-title{
+            text-align: center;
+            h3{
+                @include text($color-orange-0,$fs-heading-c1,$fw-heading-c1);
+                font-family: 'Pacifico', cursive;
+                letter-spacing: 1px;
+            }
+            h1{
+                @include text($color-black-0,$fs-heading-c2,$fw-heading-c2);
+            }
+            p{
+                font-size: $fs-heading-c1;
+                line-height: $line-height-0;
+                color: rgba(22, 28, 45, 0.7);
+            }
+        }
+        .contact-content{
+            .row{
+                .form-control{ 
+                        background-color: $bg-grey-1;
+                        margin-bottom: $margin-0;
+                        font-size: $fs-heading-c1;
+                        padding: $padding-0 $padding-20;
+                        line-height: $line-height-0;
+                        width: 100%;
+                        border: 1px solid transparent;
+                        border-radius: $border-radius-0;
+                }
+                
+                }
+            }
+            .contact-btn{
+            .btn btn-primary{
+                padding: 12px 45px;
+                border-radius: $border-radius-0;
+                @include text($color-white-0,$fs-0,$fw-0);
+                background-color: $color-orange-0;
+            }
+        }
+        }
+    }
