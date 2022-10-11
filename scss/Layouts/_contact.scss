@@ -32,11 +32,18 @@
                 }
             }
             .contact-btn{
-            .btn btn-primary{
+            text-align: right;
+            button{
                 padding: 12px 45px;
+                border: 2px solid $color-orange-0   ;
                 border-radius: $border-radius-0;
                 @include text($color-white-0,$fs-0,$fw-0);
                 background-color: $color-orange-0;
+                &:hover{
+                    background-color: #ff6600;
+                    border: 2px solid #ff6600;
+                    opacity: 0.8;
+                }
             }
         }
         }

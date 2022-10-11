@@ -227,13 +227,22 @@
   border: 1px solid transparent;
   border-radius: 6px;
 }
-.contact .container .contact-btn .btn btn-primary {
+.contact .container .contact-btn {
+  text-align: right;
+}
+.contact .container .contact-btn button {
   padding: 12px 45px;
+  border: 2px solid #ff6600;
   border-radius: 6px;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
   background-color: #ff6600;
+}
+.contact .container .contact-btn button:hover {
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  opacity: 0.8;
 }
 
 .map .container .row .map-left .map-title h3 {
@@ -274,6 +283,97 @@
   margin-top: 10px;
 }
 
+.post {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+.post .container .post-title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.post .container .post-title h3 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+}
+.post .container .post-title h1 {
+  color: #232121;
+  font-size: 40px;
+  font-weight: 600;
+}
+.post .container .post-content .row .post-item .card {
+  background-color: #f7f7f7;
+  border: none;
+}
+.post .container .post-content .row .post-item .card .card-header {
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.post .container .post-content .row .post-item .card .card-header .post-extend {
+  position: absolute;
+  bottom: 12px;
+  left: 44px;
+  color: white;
+}
+.post .container .post-content .row .post-item .card .card-header .post-extend a {
+  text-decoration: none;
+  padding: 3px 20px;
+  background-color: #ff6600;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+.post .container .post-content .row .post-item .card .card-header .post-extend span span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+.post .container .post-content .row .post-item .card .card-body {
+  padding: 0;
+  margin: 24px 0;
+}
+.post .container .post-content .row .post-item .card .card-body .card-title h3 {
+  color: #232121;
+  font-size: 24px;
+  font-weight: 600;
+}
+.post .container .post-content .row .post-item .card .card-body .card-title p {
+  line-height: 28px;
+  font-family: "Quicksand", sans-serif;
+  color: rgba(22, 28, 45, 0.7);
+  font-size: 18px;
+  font-weight: 300;
+}
+.post .container .post-content .row .post-item .card .card-footer {
+  background-color: #f7f7f7;
+  border: none;
+  padding: 0;
+}
+.post .container .post-content .row .post-item .card .card-footer .row .col-8 .people a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.post .container .post-content .row .post-item .card .card-footer .row .col-8 .people a {
+  text-decoration: none;
+  color: #232121;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.post .container .post-content .row .post-item .card .card-footer .row .col-4 .readmore {
+  color: #232121;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.9;
+  letter-spacing: 0.02em;
+}
+.post .container .post-content .row .post-item .card .card-footer .row .col-4 .readmore:hover {
+  color: #ff6600;
+}
 .btn-white {
   color: #fff;
   background-color: transparent;
@@ -300,4 +400,4 @@
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;
-}
+}/*# sourceMappingURL=style.css.map */
