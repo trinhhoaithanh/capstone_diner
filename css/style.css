@@ -51,21 +51,24 @@
   width: 100%;
   height: 100%;
 }
-.dinerCarousel .container .dinerCarousel__content {
+.dinerCarousel .container .dinerCarousel-content {
   position: absolute;
-  top: 50%;
-  width: 30%;
+  top: 30%;
+  width: 40%;
 }
-.dinerCarousel .container .dinerCarousel__content h3 {
+.dinerCarousel .container .dinerCarousel-content h3 {
   color: #fff;
   font-size: 54px;
   text-transform: capitalize;
   margin-bottom: 24px;
+  font-weight: 600;
+  line-height: 64px;
 }
-.dinerCarousel .container .dinerCarousel__content p {
-  font-size: 16px;
+.dinerCarousel .container .dinerCarousel-content p {
   color: #fff;
+  font-size: 16px;
   line-height: 28px;
+  margin-bottom: 48px;
 }
 .about {
   margin-top: 100px;
@@ -89,6 +92,17 @@
   line-height: 28px;
 }
 
+.resto .container-fluid .row .resto-left {
+  padding: 0;
+}
+.resto .container-fluid .row .resto-left .photo {
+  background: url(../../img/banner3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+}
 .team .container .team-title {
   text-align: center;
 }
@@ -271,4 +285,19 @@
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;
-}/*# sourceMappingURL=style.css.map */
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  color: #ff6600;
+  background-color: #fff;
+  border: 2px solid #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 45px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+}

@@ -1,5 +1,5 @@
 .dinerCarousel {
-    background-image: linear-gradient(to right, $color-orange-0, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpeg);
+    background-image: linear-gradient(to right, #ff6600, hsla(30deg, 100%, 1%, 0.2)), url(../img/banner1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,28 +10,30 @@
     height: 100%;
 
     .container {
-        .dinerCarousel__content {
+        .dinerCarousel-content {
             position: absolute;
-            top: 50%;
-            width: 30%;
+            top: 30%;
+            width: 40%;
 
             h3 {
                 color: $color-white-0;
                 font-size: $fs-1;
                 text-transform: capitalize;
                 margin-bottom: $margin-0;
+                font-weight: $fw-heading-c2;
+                line-height: $line-height-64;
             }
 
             p {
-                font-size: $fs-0;
                 color: $color-white-0;
+                font-size: $fs-0;
                 line-height: $line-height-0;
+                margin-bottom: $margin-2;
             }
 
-            .btn-diner {
-                .btn-white {
-                    i {}
-                }
+            a.btn-white {
+
+                i {}
             }
         }
     }
