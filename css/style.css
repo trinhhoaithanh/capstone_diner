@@ -92,6 +92,17 @@
   line-height: 28px;
 }
 
+.resto .container-fluid .row .resto-left {
+  padding: 0;
+}
+.resto .container-fluid .row .resto-left .photo {
+  background: url(../../img/banner3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+}
 .team .container .team-title {
   text-align: center;
 }
