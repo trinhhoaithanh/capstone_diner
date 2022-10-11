@@ -222,6 +222,44 @@
   background-color: #ff6600;
 }
 
+.map .container .row .map-left .map-title h3 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+}
+.map .container .row .map-left .map-title h1 {
+  color: #232121;
+  font-size: 40px;
+  font-weight: 600;
+}
+.map .container .row .map-left .map-info .info-item .col-1 span {
+  color: #ff6600;
+}
+.map .container .row .map-left .map-info .info-item .col-11 {
+  letter-spacing: 1px;
+}
+.map .container .row .map-left .map-info .info-item .col-11 h5 {
+  font-weight: 600;
+}
+.map .container .row .map-left .map-info .info-item .col-11 p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.map .container .row .map-left .map-info .info-item .col-11 p a {
+  text-decoration: none;
+  color: #777575;
+}
+.map .container .row .map-right {
+  background-color: rgba(130, 115, 252, 0.05);
+  border-radius: 6px;
+}
+.map .container .row .map-right .map-iframe iframe {
+  width: 100%;
+  margin-top: 10px;
+}
+
 .btn-white {
   color: #fff;
   background-color: transparent;
