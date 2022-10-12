@@ -58,6 +58,7 @@
                         margin-top: $margin-2;
 
                         .subscribe-content {
+                            transition: all .4s ease-in-out;
 
                             .subscribe-icon {
                                 background: $bg-color-0;
@@ -67,7 +68,6 @@
                                 text-align: center;
                                 border-radius: $border-radius-0;
                                 margin-bottom: $margin-0;
-                                transition: all .4s ease-in-out;
 
                                 i {
                                     color: $color-orange-0;

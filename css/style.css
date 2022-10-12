@@ -158,6 +158,9 @@
   grid-gap: 30px;
   margin-top: 48px;
 }
+.resto .container-fluid .row .resto-right .resto-content .resto-subcribe .subscribe-content {
+  transition: all 0.4s ease-in-out;
+}
 .resto .container-fluid .row .resto-right .resto-content .resto-subcribe .subscribe-content .subscribe-icon {
   background: #fff;
   width: 70px;
@@ -166,7 +169,6 @@
   text-align: center;
   border-radius: 6px;
   margin-bottom: 24px;
-  transition: all 0.4s ease-in-out;
 }
 .resto .container-fluid .row .resto-right .resto-content .resto-subcribe .subscribe-content .subscribe-icon i {
   color: #ff6600;
