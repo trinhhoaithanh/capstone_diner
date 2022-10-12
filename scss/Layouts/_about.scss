@@ -1,6 +1,8 @@
 .about{
-    margin-top: 100px;
+    // margin-top: 100px;
+    padding: $padding-48 0;
     .container{
+        padding: $padding-48 $padding-16 - 1;
         .row{
             .col-5{
                 h3{

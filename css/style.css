@@ -75,7 +75,10 @@
   margin-bottom: 48px;
 }
 .about {
-  margin-top: 100px;
+  padding: 48px 0;
+}
+.about .container {
+  padding: 48px 15px;
 }
 .about .container .row .col-5 h3 {
   color: #ff6600;
