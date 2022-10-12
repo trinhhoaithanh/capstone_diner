@@ -35,11 +35,7 @@
 
                     h6.font-bunny {
                         font-family: "Pacifico", cursive;
-                        font-weight: $fw-heading-c1;
-                        font-size: $fs-20;
-                        line-height: $line-height-0 + 2;
-                        letter-spacing: 1px;
-                        color: $color-white-0;
+                        @include fontBunny($fs-20, $fw-heading-c1, $line-height-0 + 2, 1px, $color-white-0);
                     }
 
                     h3.title-level2 {
