@@ -3,6 +3,7 @@ $color-white-0: #fff;
 $color-black-0: #232121;
 $color-black-1: rgba(22, 28, 45, 0.7); 
 $color-orange-0: #ff6600; 
+$color-orange-1: #ffdfc9;
 $color-yellow-0: #ffc600;
 $color-grey-0: #5B606C;
 
@@ -10,6 +11,7 @@ $color-grey-0: #5B606C;
 $bg-color-0: #fff;
 $bg-light: rgba(130, 115, 252, .05);
 $bg-grey-1:#f7f7f7;
+$bg-orange: #ff6600;
 
 // Font-size
 $fs-0: 16px;
@@ -21,6 +23,8 @@ $fs-2:24px;
 $fs-25:25px;
 $fs-12:12px;
 $fs-15:15px;
+$fs-20: 20px;
+
 // Font-weight
 $fw-0: 700;
 $fw-text:300;
@@ -29,24 +33,30 @@ $fw-heading-c2:600;
 
 // Line-height 
 $line-height-0: 28px; 
-$line-height-70:70px;
+$line-height-48: 48px;
+$line-height-70: 70px;
 $line-height-64: 64px;
 
 // Padding 
 $padding-0: 12px;
 $padding-1: 45px;
-$padding-20:20px;   
-$padding-40:40px;
+$padding-16: 16px;
+$padding-20: 20px; 
+$padding-24: 24px;  
+$padding-40: 40px;
+$padding-48: 48px;
 
 // Margin
 $margin-0: 24px;
-$margin-1:30px;
+$margin-1: 30px;
 $margin-2: 48px;
+$margin-3: 16px;
 
 // Border-radius
 $border-radius-0: 6px;
 $border-radius-5:50%;
 $border-radius-35:35px;
+
 //width
 $width-70:70px;
 
