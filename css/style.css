@@ -153,9 +153,6 @@
   grid-gap: 30px;
   margin-top: 48px;
 }
-.resto .container-fluid .row .resto-right .resto-content .resto-subcribe .subscribe-content {
-  transition: all 0.4s ease-in-out;
-}
 .resto .container-fluid .row .resto-right .resto-content .resto-subcribe .subscribe-content .subscribe-icon {
   background: #fff;
   width: 70px;
@@ -170,7 +167,9 @@
   color: #ff6600;
   font-size: 25px;
   line-height: 70px;
-  transition: all 0.4 ease-in-out;
+}
+.resto .container-fluid .row .resto-right .resto-content .resto-subcribe .subscribe-content:hover i {
+  color: #ffc600;
 }
 .resto .container-fluid .row .resto-right .resto-content .resto-subcribe .subscribe-content a {
   color: #232121;
@@ -183,9 +182,6 @@
 .resto .container-fluid .row .resto-right .resto-content .resto-subcribe .subscribe-content p {
   margin-top: 8px;
   color: #ffdfc9;
-}
-.resto .container-fluid .row .resto-right .resto-content .resto-subcribe:hover .subscribe-icon i {
-  color: #ffc600;
 }
 
 .team .container .team-title {
@@ -485,4 +481,4 @@
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;
-}/*# sourceMappingURL=style.css.map */
+}

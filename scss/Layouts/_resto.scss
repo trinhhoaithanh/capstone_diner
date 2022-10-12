@@ -62,7 +62,6 @@
                         margin-top: $margin-2;
 
                         .subscribe-content {
-                            transition: all .4s ease-in-out;
 
                             .subscribe-icon {
                                 background: $bg-color-0;
@@ -78,7 +77,12 @@
                                     color: $color-orange-0;
                                     font-size: $fs-25;
                                     line-height: $line-height-70;
-                                    transition: all .4 ease-in-out;
+                                }
+                            }
+
+                            &:hover {
+                                i {
+                                    color: $color-yellow-0;
                                 }
                             }
 
@@ -94,14 +98,6 @@
                             p {
                                 margin-top: $margin-3 - 8;
                                 color: $color-orange-1;
-                            }
-                        }
-
-                        &:hover {
-                            .subscribe-icon {
-                                i {
-                                    color: $color-yellow-0;
-                                }
                             }
                         }
                     }
