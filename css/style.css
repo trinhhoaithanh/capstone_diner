@@ -189,6 +189,12 @@
   color: #ffdfc9;
 }
 
+.team {
+  padding-bottom: 48px;
+}
+.team .container {
+  padding: 48px 15px;
+}
 .team .container .team-title {
   text-align: center;
 }
