@@ -414,6 +414,12 @@
   opacity: 0.8;
 }
 
+.map {
+  padding: 48px 0;
+}
+.map .container {
+  padding-bottom: 48px;
+}
 .map .container .row .map-left .map-title h3 {
   color: #ff6600;
   font-size: 18px;
