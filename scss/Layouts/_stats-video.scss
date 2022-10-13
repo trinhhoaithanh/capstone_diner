@@ -55,6 +55,12 @@
                         box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
                         border-radius: $border-radius-0;
                         text-align: center;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: translateY(-0.25rem);
+                            box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+                        }
 
                         i {
                             background: $bg-orange;
@@ -75,7 +81,10 @@
                             font-weight: $fw-heading-c2;
                         }
 
-                        .count-text {}
+                        .count-text {
+                            color: $color-black-1;
+                            font-weight: $fw-heading-c2;
+                        }
                     }
                 }
             }

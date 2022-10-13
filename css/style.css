@@ -422,6 +422,11 @@
   box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
   border-radius: 6px;
   text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.stats .container .stats-content .row div .stats-count:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
 }
 .stats .container .stats-content .row div .stats-count i {
   background: #ff6600;
@@ -439,6 +444,11 @@
   font-size: 42px;
   font-weight: 600;
 }
+.stats .container .stats-content .row div .stats-count .count-text {
+  color: rgba(22, 28, 45, 0.7);
+  font-weight: 600;
+}
+
 .contact .container .contact-title {
   text-align: center;
 }
@@ -969,4 +979,224 @@
   color: #232121;
   font-size: 18px;
   font-weight: 300;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.team {
+  padding-bottom: 48px;
+}
+.team .container {
+  padding: 48px 15px;
+}
+.team .container .team-title {
+  text-align: center;
+}
+.team .container .team-title h3 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+}
+.team .container .team-title h1 {
+  color: #232121;
+  font-size: 40px;
+  font-weight: 600;
+}
+.team .container .team-content .row .col-4 .team-item {
+  position: relative;
+}
+.team .container .team-content .row .col-4 .team-item:hover .content h3 a {
+  color: #ff6600;
+  font-size: 24px;
+  font-weight: 700;
+}
+.team .container .team-content .row .col-4 .team-item:hover .team-contact i {
+  opacity: 1;
+  transition: 0.5s;
+}
+.team .container .team-content .row .col-4 .team-item .team-thumbnail img {
+  width: 100%;
+  border-radius: 6px;
+}
+.team .container .team-content .row .col-4 .team-item .content {
+  text-align: center;
+  margin-top: 24px;
+}
+.team .container .team-content .row .col-4 .team-item .content h3 a {
+  color: #232121;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.team .container .team-content .row .col-4 .team-item .team-contact {
+  position: absolute;
+  top: 290px;
+  left: 120px;
+}
+.team .container .team-content .row .col-4 .team-item .team-contact i {
+  margin: 0 10px;
+  background-color: rgba(157, 157, 157, 0.5);
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.footer {
+  background: #000;
+  padding: 48px 0;
+}
+.footer .container {
+  padding: 24px 15px;
+}
+.footer .container .footer-top .footer-list:first-child {
+  padding-right: 48px;
+}
+.footer .container .footer-top .footer-list:first-child .footer-logo {
+  margin-bottom: 16px;
+}
+.footer .container .footer-top .footer-list:first-child .footer-logo h2 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.footer .container .footer-top .footer-list:first-child p {
+  color: #a5a2a1;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer .container .footer-top .footer-list:first-child .footer-social a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: #fff;
+  color: #ff6600;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.footer .container .footer-top .footer-list:first-child .footer-social a:hover {
+  background: #ff6600;
+  color: #fff;
+}
+.footer .container .footer-top .footer-list:first-child .footer-social a i {
+  line-height: 36px;
+}
+.footer .container .footer-top .footer-list:nth-child(2) h6.footer-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.footer .container .footer-top .footer-list:nth-child(2) ul {
+  padding-left: 0;
+}
+.footer .container .footer-top .footer-list:nth-child(2) ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer .container .footer-top .footer-list:nth-child(2) ul li a {
+  text-decoration: none;
+  color: #a5a2a1;
+  font-size: 17px;
+  font-weight: 600;
+}
+.footer .container .footer-top .footer-list:nth-child(2) ul li a:hover {
+  color: #ff6600;
+}
+.footer .container .footer-top .footer-list:nth-child(3) h6.footer-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.footer .container .footer-top .footer-list:nth-child(3) ul {
+  padding-left: 0;
+}
+.footer .container .footer-top .footer-list:nth-child(3) ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer .container .footer-top .footer-list:nth-child(3) ul li a {
+  text-decoration: none;
+  color: #a5a2a1;
+  font-size: 17px;
+  font-weight: 600;
+}
+.footer .container .footer-top .footer-list:nth-child(3) ul li a:hover {
+  color: #ff6600;
+}
+.footer .container .footer-top .footer-list:last-child h6.footer-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.footer .container .footer-top .footer-list:last-child p {
+  color: #a5a2a1;
+  font-size: 17px;
+  font-weight: 400;
+}
+.footer .container .footer-top .footer-list:last-child form input {
+  padding: 14px 20px;
+  font-size: 18px;
+  line-height: 28px;
+  border: 1px solid transparent;
+  outline: none;
+  width: 90%;
+  border-radius: 6px;
+  background: #fff;
+  color: rgba(22, 28, 45, 0.7);
+}
+.footer .container .footer-top .footer-list:last-child form input:focus {
+  border: 1px solid #ff6600;
+  background-color: #fff;
+}
+.footer .container .footer-top .footer-list:last-child form .btn-orange {
+  width: 90%;
+}
+
+.footer-bottom {
+  padding: 20px 0;
+  background: #000;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.footer-bottom .container .bottom-copies .copy-footer {
+  color: #ddd;
+  font-size: 17px;
+  font-weight: 400;
+}
+.footer-bottom .container .bottom-copies .copy-footer a {
+  text-decoration: none;
+  color: #ff6600;
+  font-weight: 500;
+}
+.footer-bottom .container .bottom-copies .copy-footer a:hover {
+  color: #fff;
+}
+.footer-bottom .container .bottom-copies .bottom-list ul {
+  display: flex;
+  padding-left: 0;
+}
+.footer-bottom .container .bottom-copies .bottom-list ul li {
+  list-style: none;
+}
+.footer-bottom .container .bottom-copies .bottom-list ul li a {
+  text-decoration: none;
+  color: #a5a2a1;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+}
+.footer-bottom .container .bottom-copies .bottom-list ul li a:hover {
+  color: #ff6600;
+}
