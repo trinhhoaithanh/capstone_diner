@@ -507,28 +507,28 @@
           <div class="col-md-3 col-6 mt-md-0 mt-4">
             <div class="stats-count">
               <i class="fa fa-building"></i>
-              <span class="counter">15,100</span>
+              <div class="counter">15,100</div>
               <p class="count-text">Branches</p>
             </div>
           </div>
           <div class="col-md-3 col-6 mt-md-0 mt-4">
             <div class="stats-count">
               <i class="fa fa-utensils"></i>
-              <span class="counter">19,256</span>
+              <div class="counter">19,256</div>
               <p class="count-text">Food Items</p>
             </div>
           </div>
           <div class="col-md-3 col-6 mt-md-0 mt-4">
             <div class="stats-count">
               <i class="fa fa-users"></i>
-              <span class="counter">12,100</span>
+              <div class="counter">12,100</div>
               <p class="count-text">Chefs</p>
             </div>
           </div>
           <div class="col-md-3 col-6 mt-md-0 mt-4">
             <div class="stats-count">
               <i class="fa fa-smile"></i>
-              <span class="counter">2,560</span>
+              <div class="counter">2,560</div>
               <p class="count-text">Happy Customers</p>
             </div>
           </div>
@@ -890,6 +890,12 @@
 
   <!-- Counting Up Number -->
   <script src="./js/jquery.countup.min.js"></script>
+  <script>
+    $('.counter').countUp({
+      'time': 2000,
+      'delay': 10
+    });
+  </script>
 
 
   <!-- Bootstrap JavaScript Libraries -->

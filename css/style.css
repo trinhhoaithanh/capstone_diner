@@ -411,6 +411,34 @@
 .mouth .container .mouth-content .mouth-buttons a.btn-white {
   margin-right: 24px;
 }
+.stats {
+  margin-top: -70px;
+  z-index: 10;
+  position: relative;
+}
+.stats .container .stats-content .row div .stats-count {
+  background-color: #fff;
+  padding: 40px 20px;
+  box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+  border-radius: 6px;
+  text-align: center;
+}
+.stats .container .stats-content .row div .stats-count i {
+  background: #ff6600;
+  color: #fff;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 26px;
+}
+.stats .container .stats-content .row div .stats-count .counter {
+  color: #232121;
+  margin-top: 16px;
+  font-size: 42px;
+  font-weight: 600;
+}
 .contact .container .contact-title {
   text-align: center;
 }

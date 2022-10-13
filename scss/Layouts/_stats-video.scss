@@ -39,3 +39,46 @@
         }
     }
 }
+
+.stats {
+    margin-top: $margin-70;
+    z-index: 10;
+    position: relative;
+
+    .container {
+        .stats-content {
+            .row {
+                div {
+                    .stats-count {
+                        background-color: $bg-color-0;
+                        padding: $padding-40 $padding-20;
+                        box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
+                        border-radius: $border-radius-0;
+                        text-align: center;
+
+                        i {
+                            background: $bg-orange;
+                            color: $color-white-0;
+                            width: 68px;
+                            height: 68px;
+                            line-height: $line-height-70 - 2;
+                            text-align: center;
+                            border-radius: 50%;
+                            font-size: $fs-25 + 1;
+
+                        }
+
+                        .counter {
+                            color: $color-black-0;
+                            margin-top: $margin-3;
+                            font-size: $fs-45 - 3;
+                            font-weight: $fw-heading-c2;
+                        }
+
+                        .count-text {}
+                    }
+                }
+            }
+        }
+    }
+}
