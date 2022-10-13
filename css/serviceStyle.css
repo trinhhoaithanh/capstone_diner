@@ -14,6 +14,70 @@
   height: auto;
 }
 
+.btn-white {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 45px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  color: #ff6600;
+  background-color: #fff;
+  border: 2px solid #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 45px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: #ff6600;
+  border: 2px solid transparent;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 45px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s ease-in;
+}
+.btn-orange:hover {
+  color: #fff;
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  opacity: 0.8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(../../assets/fonts/Pacifico-Regular.ttf);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .about-header {
   background-image: linear-gradient(to right, #ff6600, hsla(30deg, 100%, 1%, 0.2)), url(../../img/banner2.jpeg);
   background-size: cover;
@@ -73,168 +137,145 @@
 }
 .about-header .about-extend .path li {
   color: #fff;
-}
-.about-story .container .story-heading h3 {
-  color: #ff6600;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Pacifico", cursive;
-  letter-spacing: 1px;
-}
-.about-story .container .story-heading h1 {
-  color: #232121;
-  font-size: 40px;
-  font-weight: 600;
-}
-.about-story .container .story-content {
-  margin-top: 40px;
-}
-.about-story .container .story-content .row .story-item img {
-  border-radius: 6px;
-}
-.about-story .container .story-content .row .story-item .heading h1 {
-  color: #232121;
-  font-size: 40px;
-  font-weight: 600;
-}
-.about-story .container .story-content .row .story-item .content p {
-  color: rgba(22, 28, 45, 0.7);
-  font-size: 18px;
-  font-weight: 300;
-}
-.about-story .container .story-content .row .story-item .content .contact-btn button {
-  padding: 12px 45px;
-  border: 2px solid #ff6600;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 16px;
   font-weight: 700;
-  background-color: #ff6600;
 }
-.about-story .container .story-content .row .story-item .content .contact-btn button:hover {
-  background-color: #ff6600;
-  border: 2px solid #ff6600;
-  opacity: 0.8;
+.about {
+  padding: 48px 0;
 }
-.about-story .container .activity {
-  margin-top: 40px;
+.about .container {
+  padding: 48px 15px;
 }
-.about-story .container .activity .row .activity-heading h1 {
-  color: #232121;
-  font-size: 38px;
-  font-weight: 600;
-  line-height: 48px;
-}
-.about-story .container .activity .activity-item h3 {
-  color: #ff6600;
-  font-size: 20px;
-  font-weight: 600;
-}
-.about-story .container .activity .activity-item h3:hover {
-  color: #ffc600;
-}
-.about-story .container .activity .activity-item p {
-  margin-top: 8px;
-  color: #232121;
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.about-skill {
-  background-color: #f7f7f7;
-}
-.about-skill .container .row .skill-heading h3 {
+.about .container .row .col-5 h3 {
   color: #ff6600;
   font-size: 18px;
   font-weight: 400;
   font-family: "Pacifico", cursive;
   letter-spacing: 1px;
 }
-.about-skill .container .row .skill-heading h1 {
+.about .container .row .col-5 h2 {
   color: #232121;
   font-size: 40px;
   font-weight: 600;
 }
-.about-skill .container .row .skill-heading p {
+.about .container .row .col-7 p {
   color: #5B606C;
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
 }
-.about-skill .container .row .bar .progress-info .progress-title {
-  color: #232121;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.about-skill .container .row .bar .progress-info .progress .progress-bar {
-  background-image: none;
-  height: 1rem;
-  background-color: #ff6600;
-}
-.about-skill .container .row .thumbnail {
+
+.menu .container .row .menu-item {
+  padding: 40px;
+  border: 1px solid #eee;
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
   border-radius: 6px;
 }
-
-.team {
-  padding-bottom: 48px;
+.menu .container .row .menu-item:hover {
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
 }
-.team .container {
-  padding: 48px 15px;
+.menu .container .row .menu-item:hover .item-heading .row .col-3 .icon {
+  background-color: #ff6600;
+  transition: all 1s;
 }
-.team .container .team-title {
+.menu .container .row .menu-item:hover .item-heading .row .col-3 .icon span {
+  color: #fff;
+  transition: all 1s;
+}
+.menu .container .row .menu-item .item-heading .row .col-3 {
   text-align: center;
 }
-.team .container .team-title h3 {
+.menu .container .row .menu-item .item-heading .row .col-3 .icon {
+  background-color: rgba(130, 115, 252, 0.05);
+  border-radius: 6px;
+  width: 85px;
+  height: 85px;
+}
+.menu .container .row .menu-item .item-heading .row .col-3 .icon span {
+  margin: 30px;
+  font-size: 25px;
+  color: #ff6600;
+}
+.menu .container .row .menu-item .item-heading .row .col-9 .info h4 {
+  color: #232121;
+  font-size: 24px;
+  font-weight: 600;
+}
+.menu .container .row .menu-item .item-heading .row .col-9 .info h4:hover {
+  color: #ff6600;
+}
+.mouth {
+  background: url(../../img/banner2.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.mouth::before {
+  content: "";
+  background: rgba(16, 15, 19, 0.66);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  z-index: -1;
+}
+.mouth .container .mouth-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.mouth .container .mouth-content .mouth-title {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+  max-width: 800px;
+}
+.mouth .container .mouth-content .mouth-buttons {
+  padding-bottom: 48px;
+}
+.mouth .container .mouth-content .mouth-buttons a.btn-white {
+  margin-right: 24px;
+}
+.mouth .container .mouth-content .mouth-buttons a.btn-white:hover {
+  background-color: #fff;
+  color: #ff6600;
+}
+.mouth .container .mouth-content .mouth-buttons a.btn-orange:hover {
+  color: #fff;
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  opacity: 0.8;
+}
+.plan .container .plan-heading h3 {
   color: #ff6600;
   font-size: 18px;
   font-weight: 400;
   font-family: "Pacifico", cursive;
   letter-spacing: 1px;
 }
-.team .container .team-title h1 {
+.plan .container .plan-heading h1 {
   color: #232121;
   font-size: 40px;
   font-weight: 600;
 }
-.team .container .team-content .row .col-4 .team-item {
-  position: relative;
+.plan .container .plan-content .plan-item .disk .border-dot {
+  margin-left: 0;
+  margin-right: 10px;
+  border-bottom: 2px dotted #bbb;
 }
-.team .container .team-content .row .col-4 .team-item:hover .content h3 a {
+.plan .container .plan-content .plan-item .disk .border-dot .menu-item-name h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.plan .container .plan-content .plan-item .disk .border-dot .menu-item-price h6 {
   color: #ff6600;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
 }
-.team .container .team-content .row .col-4 .team-item:hover .team-contact i {
-  opacity: 1;
-  transition: 0.5s;
-}
-.team .container .team-content .row .col-4 .team-item .team-thumbnail img {
-  width: 100%;
-  border-radius: 6px;
-}
-.team .container .team-content .row .col-4 .team-item .content {
-  text-align: center;
-  margin-top: 24px;
-}
-.team .container .team-content .row .col-4 .team-item .content h3 a {
-  color: #232121;
-  font-size: 24px;
-  font-weight: 700;
-  text-decoration: none;
-}
-.team .container .team-content .row .col-4 .team-item .team-contact {
-  position: absolute;
-  top: 290px;
-  left: 120px;
-}
-.team .container .team-content .row .col-4 .team-item .team-contact i {
-  margin: 0 10px;
-  background-color: rgba(157, 157, 157, 0.5);
-  color: #fff;
-  padding: 12px;
-  border-radius: 50%;
-  opacity: 0;
+.plan .container .plan-content .plan-item .disk .disk-description p {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .footer {
@@ -400,4 +441,4 @@
 }
 .footer-bottom .container .bottom-copies .bottom-list ul li a:hover {
   color: #ff6600;
-}
+}/*# sourceMappingURL=serviceStyle.css.map */

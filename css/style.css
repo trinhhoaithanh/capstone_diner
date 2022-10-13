@@ -814,6 +814,12 @@
 .footer .container .footer-top .footer-list:last-child form .btn-orange {
   width: 90%;
 }
+.footer .container .footer-top .footer-list:last-child form .btn-orange:hover {
+  color: #fff;
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  opacity: 0.8;
+}
 
 .footer-bottom {
   padding: 20px 0;
@@ -1259,6 +1265,12 @@
 }
 .footer .container .footer-top .footer-list:last-child form .btn-orange {
   width: 90%;
+}
+.footer .container .footer-top .footer-list:last-child form .btn-orange:hover {
+  color: #fff;
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  opacity: 0.8;
 }
 
 .footer-bottom {
