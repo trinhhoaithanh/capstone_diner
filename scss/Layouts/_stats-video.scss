@@ -91,3 +91,74 @@
         }
     }
 }
+
+.video {
+    padding: $padding-48 0;
+    .container {
+        .video-info {
+            background: url(../../img/banner3.jpeg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: grid;
+            align-items: center;
+            min-height: 500px;
+            border-radius: $border-radius-0;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                background: rgb(16 15 19 / 66%);
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                min-height: 100%;
+                z-index: -1;
+                border-radius: $border-radius-0;
+            }
+
+            a.play-video {
+                text-align: center;
+                left: 0;
+                right: 0;
+                top: calc(50% - 40px);
+
+                .video-play-icon {
+                    display: inline-block;
+                    width: 80px;
+                    height: 80px;
+                    line-height: $line-height-70 + 10;
+                    font-size: $fs-25 + 1;
+                    text-align: center;
+                    background: $bg-color-0;
+                    border-radius: 50%;
+                    padding-left: $padding-0 - 10;
+                    color: $color-orange-0;
+                    border: transparent;
+                    animation: ripple 1s linear infinite;
+                    transition: all .3s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        background: $bg-orange;
+                        border: transparent;
+                        color: $color-white-0;
+                    }
+                    
+                    i {}
+                }
+            }
+        }
+    }
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgb(255 255 255 / 25%), 0 0 0 10px rgb(255 255 255 / 25%), 0 0 0 20px rgb(255 255 255 / 25%);
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px rgb(255 255 255 / 25%), 0 0 0 20px rgb(255 255 255 / 25%), 0 0 0 40px rgba(50, 100, 245, 0);
+    }
+}
