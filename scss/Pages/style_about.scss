@@ -1,10 +1,14 @@
-@import "../scss/Helpers/variables";
-@import "../scss/Helpers/mixin";
+// @import "../scss/Helpers/variables";
+// @import "../scss/Helpers/mixin";
 
-// Vendor
+// // Vendor
 
-// Base
-@import "../scss/Base/reset";
+// // Base
+// @import "../scss/Base/reset";
 
-//Layouts
-@import "./scss/Layouts/aboutUsHeader";
+// //Layouts
+// @import "./scss/Layouts/aboutUsHeader";
+
+.about-header {
+    background-color: yellow;
+}
