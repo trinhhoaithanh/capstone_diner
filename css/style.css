@@ -936,7 +936,7 @@
   text-decoration: none;
   margin-left: 5px;
   color: #fff;
-  font-size: 700;
+  font-weight: 700;
 }
 .about-header .container .col-8 .row .col-9 .menu ul li a:hover {
   color: #ff6600;
