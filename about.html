@@ -24,17 +24,40 @@
 </head>
 
 <body>
+  <!-- HEADER  -->
   <header class="about-header">
     <div class="container">
       <div class="row">
-        <div class="col-8">
+        <div class="col-4">
           <div class="logo">
             <h1>Diner</h1>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-8">
           <div class="row">
-            <div class="col-3">
+            <div class="col-9">
+              <nav class="menu" >
+                <ul>
+                  <li><a href="index.html" class="active">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="error.html">404</a></li>
+                  <li><a href="landing-single.html">Landing Page</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="elements.html">Shot Codes</a></li>
+                  <li><a href="email.html">Email</a></li>
+                </ul>
+              </nav>
+              
+            </div>
+            <div class="col-1">
+              <div class="switch">
+                <span class="fa fa-sun"></span>
+                <i class="fa fa-moon"></i>
+              </div>
+            </div>
+            <div class="col-2">
               <div class="search-bar">
                 <form class="search">
                   <input type="search" class="search__input" name="search" placeholder="Search here.."
@@ -42,54 +65,78 @@
                   <span class="fa fa-search search__icon"></span>
                 </form>
               </div>
-            </div>
-            <div class="col-2">
-              <div class="switch">
-                <span class="fa fa-sun"></span>
-                <i class="fa fa-moon"></i>
               </div>
+              
+                
+              
             </div>
-            <div class="col-7">
-              <div class="menu-button">
-                <button class="active-overlay" id="trigger-overlay" type="button">
-                  <i class="fa fa-bars" aria-hidden="true"></i>
-                </button>
-              </div>
-              <!-- <div class="overlay">
-                <button type="button" class="overlay-close">
-                  <i class="fa fa-times" aria-hidden="true"></i>
-                </button>
-                <nav>
-                  <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="error.html">404</a></li>
-                    <li><a href="landing-single.html">Landing Page</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="elements.html">Shot Codes</a></li>
-                    <li><a href="email.html">Email</a></li>
-                  </ul>
-                </nav>
-              </div> -->
+          </div>
+      
+    </div>
+    </div>
+    <div class="about-extend">
+      <ul class="path">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>
+          About Us
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- STORY  -->
+  <section class="about-story">
+    <div class="container">
+      <div class="story-heading">
+        <h3>The Story</h3>
+        <h1>About Us </h1>
+      </div>
+      <div class="story-content">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 story-item">
+            <img class="w-100" src="./img/banner1.jpeg" alt="">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 story-item">
+            <div class="heading">
+              <h1>We found our creative space that is open for you.</h1>
             </div>
+            <div class="content">
+              <p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Phasellus lacinia</p>
+              <p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper.</p>
+              <button class="btn btn-primary">READ MORE 
+                <span class="fa fa-angle-right"></span>
+              </button>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <div class="activity">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="activity-heading">
+              <h1 >What we Do ?.</h1>
+            </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 activity-item">
+            <h3>
+              Strategy and Timing</h3>
+            <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 activity-item">
+            <h3>Leaders Of Tomorrow</h3>
+            <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 activity-item">
+            <h3>Brand - Centered Buying</h3>
+            <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
           </div>
         </div>
       </div>
-      <div class="about-extend">
-        <ul class="path">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>
-            About Us
-          </li>
-        </ul>
-      </div>
     </div>
-  </header>
+  </section>
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

@@ -1,14 +1,133 @@
-// @import "../scss/Helpers/variables";
-// @import "../scss/Helpers/mixin";
-
-// // Vendor
-
-// // Base
-// @import "../scss/Base/reset";
-
-// //Layouts
-// @import "./scss/Layouts/aboutUsHeader";
-
+@import "../Helpers/variables";
+//HEADER
 .about-header {
-    background-color: yellow;
+    background-image: linear-gradient(to right, #ff6600, hsla(30deg, 100%, 1%, 0.2)),url(../../img/banner2.jpeg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 400px;
+    .container{
+        padding-top: $padding-20;
+       .col-4{
+        .logo{
+            h1{
+                color: $color-white-0;
+            }
+        }
+       }
+       .col-8{
+        .row{
+            .col-9{
+                .menu{
+                    ul{
+                        li{
+                            list-style: none;
+                            display: inline;
+                            a{
+                                text-decoration: none;
+                                margin-left: 5px;
+                                color: $color-white-0;
+                                font-size: $fw-0;
+                                
+                                &:hover{
+                                    color:$color-orange-0 ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .col-1{
+                .switch{
+                    color: $color-white-0   ;
+                    span{
+                        opacity: 0;
+                    }
+                    i{
+                        
+                    }
+                }
+            }
+            .col-2{
+                .search-bar{
+                    position: relative;
+                    .search{
+                        .search__input{
+                            border-radius: 6px;
+                            border: none;
+                            padding: 10px 20px;
+                        }
+                        .search__icon{
+                            position: absolute;
+                            top: 14px;
+                            left: 180px;
+                        }
+                    }
+                }
+            }
+        }
+       }
+    }
+    .about-extend{
+        text-align: center;
+        margin-top: 100px;
+        .path{
+            li{
+                display: inline;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: $color-orange-0;
+                }
+            }
+            li{
+                color: $color-white-0;
+                span{
+
+                }
+            }
+        }
+    }
+}
+//STORY
+.about-story{
+    .container{
+        .story-heading{
+            h3{}
+            h1{}
+        }
+        .story-content{
+            .row{
+                .story-item{
+                    img{}
+                    .heading{
+                        h1{}
+                    }
+                    .content{
+                        p{}
+                        button{
+                            span{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .activity{
+            .row{
+                .activity-heading{
+                    h1{}
+                }
+                .activity-item{
+                    h3{
+
+                    }
+                    p{
+                        
+                    }
+                }
+            }
+        }
+    }
 }
