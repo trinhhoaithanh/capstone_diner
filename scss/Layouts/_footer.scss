@@ -49,25 +49,80 @@
                 }
             }
 
-            .footer-list:nth-child(2) + .footer-list:nth-child(3) {
-                h6 {}
-
+            .footer-list:nth-child(2) {
+                h6.footer-title {
+                    @include text($color-white-0, $fs-20 + 2, $fw-0);
+                    line-height: $line-height-0;
+                    margin-bottom: $margin-1;
+                }
                 ul {
+                    padding-left: 0;
                     li {
-                        a {}
+                        list-style: none;
+                        margin-bottom: $margin-4 + 2;
+                        a {
+                            text-decoration: none;
+                            @include text($color-grey-1, $fs-0 + 1, $fw-heading-c2);
+
+                            &:hover {
+                                color: $color-orange-0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer-list:nth-child(3) {
+                h6.footer-title {
+                    @include text($color-white-0, $fs-20 + 2, $fw-0);
+                    line-height: $line-height-0;
+                    margin-bottom: $margin-1;
+                }
+                ul {
+                    padding-left: 0;
+                    li {
+                        list-style: none;
+                        margin-bottom: $margin-4 + 2;
+                        a {
+                            text-decoration: none;
+                            @include text($color-grey-1, $fs-0 + 1, $fw-heading-c2);
+
+                            &:hover {
+                                color: $color-orange-0;
+                            }
+                        }
+                        
                     }
                 }
             }
 
             .footer-list:last-child {
-                h6 {}
+                h6.footer-title {
+                    @include text($color-white-0, $fs-20 + 2, $fw-heading-c1);
+                    line-height: $line-height-0;
+                    margin-bottom: $margin-1;
+                }
 
-                p {}
+                p {
+                    @include text($color-grey-1, $fs-0 + 1, $fw-heading-c1);
+                }
 
                 form {
-                    input {}
+                    input {
+                        padding: $padding-14 $padding-20;
+                        font-size: $fs-heading-c1;
+                        line-height: $line-height-0;
+                        border: 1px solid transparent;
+                        outline: none;
+                        width: 90%;
+                        border-radius: $border-radius-0;
+                        background: $bg-color-0;
+                        color: $color-black-1;
+                    }
 
-                    .btn-orange {}
+                    .btn-orange {
+                        width: 90%;
+                    }
                 }
             }
         }
