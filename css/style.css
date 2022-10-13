@@ -25,28 +25,40 @@
 .header .container {
   margin-top: 24px;
 }
-.header .container .col-8 .logo h1 {
+.header .container .col-4 .logo h1 {
   color: #fff;
 }
-.header .container .col-4 .search-bar {
+.header .container .col-8 .row .col-9 .menu ul li {
+  list-style: none;
+  display: inline;
+}
+.header .container .col-8 .row .col-9 .menu ul li a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #fff;
+  font-size: 700;
+}
+.header .container .col-8 .row .col-9 .menu ul li a:hover {
+  color: #ff6600;
+}
+.header .container .col-8 .row .col-1 .switch {
+  color: #fff;
+}
+.header .container .col-8 .row .col-1 .switch span {
+  opacity: 0;
+}
+.header .container .col-8 .row .col-2 .search-bar {
   position: relative;
 }
-.header .container .col-4 .search-bar .search .search__input {
+.header .container .col-8 .row .col-2 .search-bar .search .search__input {
   border-radius: 6px;
   border: none;
   padding: 10px 20px;
 }
-.header .container .col-4 .search-bar .search .search__icon {
+.header .container .col-8 .row .col-2 .search-bar .search .search__icon {
   position: absolute;
   top: 14px;
   left: 180px;
-}
-.header .container .col-4 .overlay nav ul li {
-  list-style: none;
-}
-.header .container .col-4 .overlay nav ul li a {
-  text-decoration: none;
-  color: white;
 }
 
 .dinerCarousel {
@@ -791,4 +803,4 @@
 
 .about-header {
   background-color: yellow;
-}
+}/*# sourceMappingURL=style.css.map */

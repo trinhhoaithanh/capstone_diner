@@ -8,49 +8,59 @@
     z-index: 1;
     .container{
         margin-top: $margin-0;
-       .col-8{
+       .col-4{
         .logo{
             h1{
                 color: $color-white-0;
             }
         }
        }
-       .col-4{
-        .search-bar{
-            position: relative;
-            .search{
-                
-                .search__input{
-                    border-radius: 6px;
-                    border: none;
-                    padding: 10px 20px;
+       .col-8{
+        .row{
+            .col-9{
+                .menu{
+                    ul{
+                        li{
+                            list-style: none;
+                            display: inline;
+                            a{
+                                text-decoration: none;
+                                margin-left: 5px;
+                                color: $color-white-0;
+                                font-size: $fw-0;
+                                
+                                &:hover{
+                                    color:$color-orange-0 ;
+                                }
+                            }
+                        }
+                    }
                 }
-                .search__icon{
-                    position: absolute;
-                    top: 14px;
-                    left: 180px;
+            }
+            .col-1{
+                .switch{
+                    color: $color-white-0   ;
+                    span{
+                        opacity: 0;
+                    }
+                    i{
+                        
+                    }
                 }
             }
-        }
-        .switch{
-
-        }
-        .menu-button{
-            .active-overlay{
-
-            }
-        }
-        .overlay{
-            .overlay-close{
-
-            }
-            nav{
-                ul{
-                    li{
-                        list-style: none;
-                        a{
-                        text-decoration: none;
-                        color: white;
+            .col-2{
+                .search-bar{
+                    position: relative;
+                    .search{
+                        .search__input{
+                            border-radius: 6px;
+                            border: none;
+                            padding: 10px 20px;
+                        }
+                        .search__icon{
+                            position: absolute;
+                            top: 14px;
+                            left: 180px;
                         }
                     }
                 }
