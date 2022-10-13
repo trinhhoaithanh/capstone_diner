@@ -137,6 +137,12 @@
 
                     .btn-orange {
                         width: 90%;
+                        &:hover{
+                            color: $color-white-0;
+                            background-color: $color-orange-0;
+                            border: 2px solid $color-orange-0;
+                            opacity: 0.8;
+                        }
                     }
                 }
             }

@@ -1,0 +1,204 @@
+//HELPERS
+
+@import "../Helpers/variables";
+@import "../Helpers/mixin";
+//BASE
+@import "../Base/reset";
+//COMPONENT
+@import "../Components/button";
+//BASE
+@import "../Base/reset";
+//HEADER
+.about-header {
+    background-image: linear-gradient(to right, #ff6600, hsla(30deg, 100%, 1%, 0.2)),url(../../img/banner2.jpeg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 400px;
+    .container{
+        padding-top: $padding-20;
+       .col-4{
+        .logo{
+            h1{
+                color: $color-white-0;
+            }
+        }
+       }
+       .col-8{
+        .row{
+            .col-9{
+                .menu{
+                    ul{
+                        li{
+                            list-style: none;
+                            display: inline;
+                            a{
+                                text-decoration: none;
+                                margin-left: 5px;
+                                color: $color-white-0;
+                                font-weight: $fw-0;
+                                
+                                &:hover{
+                                    color:$color-orange-0 ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .col-1{
+                .switch{
+                    color: $color-white-0   ;
+                    span{
+                        opacity: 0;
+                    }
+                    i{
+                        
+                    }
+                }
+            }
+            .col-2{
+                .search-bar{
+                    position: relative;
+                    .search{
+                        .search__input{
+                            border-radius: 6px;
+                            border: none;
+                            padding: 10px 20px;
+                        }
+                        .search__icon{
+                            position: absolute;
+                            top: 14px;
+                            left: 180px;
+                        }
+                    }
+                }
+            }
+        }
+       }
+    }
+    .about-extend{
+        text-align: center;
+        margin-top: 100px;
+        .path{
+            li{
+                display: inline;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: $color-orange-0;
+                }
+            }
+            li{
+                color: $color-white-0;
+                font-weight: $fw-0;
+                span{
+
+                }
+            }
+        }
+    }
+}
+//ABOUT
+@import "../Layouts/about";
+//MENU
+@import "../Layouts/menu";
+//MOUTH
+.mouth {
+    background: url(../../img/banner2.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &::before {
+        content: "";
+        background: rgb(16 15 19 / 66%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        min-height: 100%;
+        z-index: -1;
+    }
+    .container {
+        
+        .mouth-content {
+            max-width: 700px;
+            margin: 0 auto;
+            .mouth-title {
+                margin-bottom: 0;
+                @include text($color-white-0, $fs-45, $fw-heading-c2);
+                max-width: 800px;
+            }
+
+            .mouth-buttons {
+                padding-bottom: $padding-48;
+                a.btn-white {
+                    margin-right: $margin-0;
+                    &:hover{
+                        background-color:$bg-color-0;
+                        color: $color-orange-0;
+                    }
+                    i {}
+                }
+
+                a.btn-orange {
+                    &:hover{
+                        color: $color-white-0;
+                        background-color: $color-orange-0;
+                        border: 2px solid $color-orange-0;
+                        opacity: 0.8;
+                    }
+                    i {}
+                }
+            }
+        }
+    }
+}
+//PLAN
+.plan{
+    .container{
+        .plan-heading{
+            h3{
+                @include text($color-orange-0,$fs-heading-c1,$fw-heading-c1);
+                font-family: 'Pacifico', cursive;
+                letter-spacing: 1px;
+            }
+            h1{
+                @include text($color-black-0,$fs-heading-c2,$fw-heading-c2);
+            }
+        }
+        .plan-content{
+            .plan-item{
+                .disk{
+                    .border-dot{
+                        margin-left: 0;
+                        margin-right: 10px ;
+                        border-bottom: 2px dotted #bbb;
+                        .menu-item-name{
+                            h6{
+                                font-size: $fs-20;
+                                font-weight: $fw-heading-c2;
+                            }
+                        }
+                        .menu-item-price{
+                            h6{
+                                @include text($color-orange-0,$fs-20,$fw-heading-c2);
+                            }
+                        }
+                    }
+                    .disk-description{
+                        p{
+                            margin-top: 10px;
+                            font-size: $fs-heading-c1;
+                            line-height: $line-height-0;
+                        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//FOOTER
+@import "../Layouts/footer";
