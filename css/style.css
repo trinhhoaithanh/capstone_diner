@@ -1041,6 +1041,42 @@
   font-weight: 300;
 }
 
+.about-skill {
+  background-color: #f7f7f7;
+}
+.about-skill .container .row .skill-heading h3 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+}
+.about-skill .container .row .skill-heading h1 {
+  color: #232121;
+  font-size: 40px;
+  font-weight: 600;
+}
+.about-skill .container .row .skill-heading p {
+  color: #5B606C;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.about-skill .container .row .bar .progress-info .progress-title {
+  color: #232121;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.about-skill .container .row .bar .progress-info .progress .progress-bar {
+  background-image: none;
+  height: 1rem;
+  background-color: #ff6600;
+}
+.about-skill .container .row .thumbnail {
+  border-radius: 6px;
+}
+
 .team {
   padding-bottom: 48px;
 }
@@ -1259,4 +1295,4 @@
 }
 .footer-bottom .container .bottom-copies .bottom-list ul li a:hover {
   color: #ff6600;
-}
+}/*# sourceMappingURL=style.css.map */

@@ -169,6 +169,47 @@
             }
         }
     }
+//SKILL
+.about-skill{
+    background-color: $bg-grey-1;
+    .container{
+        .row{
+            .skill-heading{
+                h3{
+                    @include text($color-orange-0,$fs-heading-c1,$fw-heading-c1);
+                    font-family: 'Pacifico', cursive;
+                    letter-spacing: 1px;
+                }
+                h1{
+                    @include text($color-black-0,$fs-heading-c2,$fw-heading-c2); 
+                }
+                p{
+                    @include text($color-grey-0,$fs-heading-c1,$fw-text);
+                    line-height: 28px;
+                }
+            }
+            .bar{
+                .progress-info{
+                    .progress-title{
+                        @include text($color-black-0,$fs-heading-c1,$fw-0);
+                        margin-bottom: 10px;
+                    }
+                    .progress{
+                        .progress-bar {
+                            background-image: none;
+                            height: 1rem;
+                            background-color: $color-orange-0;
+                        }
+                    }
+                }
+            }
+            .thumbnail{
+                border-radius: $border-radius-0;
+            }
+        }
+    }
+}
 //TEAM
 @import "../Layouts/team";
+//FOOTER
 @import "../Layouts/footer";
