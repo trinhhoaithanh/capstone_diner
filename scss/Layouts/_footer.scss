@@ -1,14 +1,17 @@
 .footer {
     background: $bg-black;
+    padding: $padding-48 0;
 
     .container {
-        padding: $padding-72 $padding-16 - 1;
-        padding-bottom: 0;
+        padding: $padding-24 $padding-14 + 1;
+
         .footer-top {
             .footer-list:first-child {
                 padding-right: $padding-48;
+
                 .footer-logo {
                     margin-bottom: $margin-3;
+
                     h2 {
                         a {
                             text-decoration: none;
@@ -42,6 +45,7 @@
                             background: $bg-orange;
                             color: $color-white-0;
                         }
+
                         i {
                             line-height: $line-heigh-36;
                         }
@@ -55,11 +59,14 @@
                     line-height: $line-height-0;
                     margin-bottom: $margin-1;
                 }
+
                 ul {
                     padding-left: 0;
+
                     li {
                         list-style: none;
                         margin-bottom: $margin-4 + 2;
+
                         a {
                             text-decoration: none;
                             @include text($color-grey-1, $fs-0 + 1, $fw-heading-c2);
@@ -78,11 +85,14 @@
                     line-height: $line-height-0;
                     margin-bottom: $margin-1;
                 }
+
                 ul {
                     padding-left: 0;
+
                     li {
                         list-style: none;
                         margin-bottom: $margin-4 + 2;
+
                         a {
                             text-decoration: none;
                             @include text($color-grey-1, $fs-0 + 1, $fw-heading-c2);
@@ -91,7 +101,7 @@
                                 color: $color-orange-0;
                             }
                         }
-                        
+
                     }
                 }
             }
@@ -118,6 +128,11 @@
                         border-radius: $border-radius-0;
                         background: $bg-color-0;
                         color: $color-black-1;
+
+                        &:focus {
+                            border: 1px solid $bg-orange;
+                            background-color: $bg-color-0;
+                        }
                     }
 
                     .btn-orange {
@@ -126,18 +141,51 @@
                 }
             }
         }
+    }
+}
 
-        .footer-bottom {
-            padding-top: $padding-72;
-            .bottom-copies {
-                .copy-info {
-                    a {}
+.footer-bottom {
+    padding: $padding-20 0;
+    background: $bg-black;
+    border-top: 1px solid rgb(255 255 255 / 5%);
+
+    .container {
+        .bottom-copies {
+            .copy-footer {
+                color: $color-grey-2;
+                font-size: $fs-0 + 1;
+                font-weight: $fw-heading-c1;
+
+                a {
+                    text-decoration: none;
+                    color: $color-orange-0;
+                    font-weight: $fw-1;
+
+                    &:hover {
+                        color: $color-white-0;
+                    }
                 }
+            }
 
-                .bottom-list {
-                    ul {
-                        li {
-                            a {}
+            .bottom-list {
+
+                ul {
+                    display: flex;
+                    padding-left: 0;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            text-decoration: none;
+                            color: $color-grey-1;
+                            font-size: $fs-0 + 1;
+                            line-height: $line-height-0 - 2;
+                            font-weight: $fw-1;
+
+                            &:hover {
+                                color: $color-orange-0;
+                            }
                         }
                     }
                 }
