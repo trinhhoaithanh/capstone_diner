@@ -1,0 +1,51 @@
+
+// Contact
+.contact {
+    padding-top: $padding-48;
+    padding-bottom: 0;
+
+    .container {
+        padding-top: $padding-48;
+
+        .contact-title {
+            h3 {}
+
+            h1 {}
+
+            p {}
+        }
+
+        .contact-content {
+            .row {
+                .col-4 {
+                    input.form-control {
+
+                        &:focus {
+                            outline: none;
+                            border: 1px solid $bg-orange;
+                            background: $bg-color-0;
+                            box-shadow: none;
+                        }
+                    }
+                }
+
+                .message-input {
+                    textarea.form-control {
+                        min-height: 200px;
+
+                        &:focus {
+                            outline: none;
+                            border: 1px solid $bg-orange;
+                            background: $bg-color-0;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact-btn {
+            button {}
+        }
+    }
+}

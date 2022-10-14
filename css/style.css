@@ -2345,4 +2345,27 @@
 }
 .footer-bottom .container .bottom-copies .bottom-list ul li a:hover {
   color: #ff6600;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.contact {
+  padding-top: 48px;
+  padding-bottom: 0;
+}
+.contact .container {
+  padding-top: 48px;
+}
+.contact .container .contact-content .row .col-4 input.form-control:focus {
+  outline: none;
+  border: 1px solid #ff6600;
+  background: #fff;
+  box-shadow: none;
+}
+.contact .container .contact-content .row .message-input textarea.form-control {
+  min-height: 200px;
+}
+.contact .container .contact-content .row .message-input textarea.form-control:focus {
+  outline: none;
+  border: 1px solid #ff6600;
+  background: #fff;
+  box-shadow: none;
+}
