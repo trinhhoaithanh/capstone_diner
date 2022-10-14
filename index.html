@@ -22,6 +22,10 @@
   <!-- FONT AWESOME 6.1.1 CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
+  <!-- OWL CAROUSEL -->
+  <link rel="stylesheet" href="./assets/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/owl-carousel/owl.theme.default.min.css">
+
   <!-- STYLE CSS -->
   <link rel="stylesheet" href="./css/style.min.css" />
 </head>
@@ -635,7 +639,33 @@
   </section>
 
   <!-- TESTIMONIALS -->
-  
+  <section class="testimonials text-center">
+    <div class="container">
+      <div class="testimonials-title">
+        <h6 class="font-bunny">Testimonials</h6>
+        <h3 class="title-level2">What People Say</h3>
+      </div>
+      <div class="testimonials-slider">
+        <div class="testimonials-carousel owl-carousel owl-theme">
+          <div class="myItem">
+            <div class="testimonials-content">
+              <a href="#" class="testimonials-photo">
+                <img src="./img/team2.jpeg">
+              </a>
+              <blockquote>
+                <q>Simply the best. Better than all the rest.</q>
+              </blockquote>
+              <p>
+                My new site is so much faster and easier to work with than my old site. They are here to
+                help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                Pellen tesque libero ut justo, ultrices in ligula.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- FOOTER TOP -->
   <section class="footer">
@@ -752,6 +782,16 @@
     $('.counter').countUp({
       'time': 2000,
       'delay': 10
+    });
+  </script>
+
+  <!-- OWL CAROUSEL -->
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel({
+        items: 1
+      });
     });
   </script>
 
