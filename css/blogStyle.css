@@ -139,6 +139,13 @@
   color: #fff;
   font-weight: 700;
 }
+.blog {
+  background-color: #f7f7f7;
+}
+.blog .container .blog-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
 .blog .container .blog-title h3 {
   color: #ff6600;
   font-size: 18px;
@@ -149,6 +156,134 @@
 .blog .container .blog-title h1 {
   color: #232121;
   font-size: 40px;
+  font-weight: 600;
+}
+.blog .container .blog-content .blog-left .row .item .card {
+  background-color: #f7f7f7;
+  border: none;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-header {
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-header .post-extend {
+  position: absolute;
+  bottom: 12px;
+  left: 44px;
+  color: white;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-header .post-extend a {
+  text-decoration: none;
+  padding: 3px 20px;
+  background-color: #ff6600;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-header .post-extend span span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-body {
+  background-color: #f7f7f7;
+  padding: 0;
+  margin: 24px 0;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-body .card-title h3 {
+  color: #232121;
+  font-size: 24px;
+  font-weight: 600;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-body .card-title p {
+  line-height: 28px;
+  font-family: "Quicksand", sans-serif;
+  color: rgba(22, 28, 45, 0.7);
+  font-size: 18px;
+  font-weight: 300;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-footer {
+  background-color: #f7f7f7;
+  border: none;
+  padding: 0;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-footer .row .col-8 .people a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-footer .row .col-8 .people a {
+  text-decoration: none;
+  color: #232121;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-footer .row .col-4 .readmore {
+  color: #232121;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.9;
+  letter-spacing: 0.02em;
+}
+.blog .container .blog-content .blog-left .row .item .card .card-footer .row .col-4 .readmore:hover {
+  color: #ff6600;
+}
+.blog .container .blog-content .blog-left .row .pagination-wrapper .page-pagination li {
+  list-style: none;
+  display: inline;
+  background-color: transparent;
+  padding: 8px 16px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.blog .container .blog-content .blog-left .row .pagination-wrapper .page-pagination li .current {
+  background-color: #ff6600 !important;
+}
+.blog .container .blog-content .blog-left .row .pagination-wrapper .page-pagination li a {
+  text-decoration: none;
+  color: #5B606C;
+}
+.blog .container .blog-content .blog-right {
+  background-color: #f7f7f7;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar .popular-post {
+  background-color: #f7f7f7;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar .popular-post .sidebar-title .title-left {
+  font-size: 26px;
+  font-weight: 600;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar .popular-post .sidebar-title .row .col-6 .post-recipe .post-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar .popular-post .sidebar-title .row .col-6 .post-recipe .post-thumb .text-small {
+  display: block;
+  line-height: 22px;
+  margin-top: 10px;
+  color: #232121;
+  font-size: 18px;
+  font-weight: 700;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar .popular-post .sidebar-title .row .col-7 a {
+  text-decoration: none;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar .blog-category {
+  background: #f7f7f7;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar .blog-category .sidebar-title .title-left {
+  font-size: 26px;
+  font-weight: 600;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar {
+  background: #f7f7f7;
+}
+.blog .container .blog-content .blog-right .sticky .sidebar .sidebar-title .title-left {
+  font-size: 26px;
   font-weight: 600;
 }
 .footer {
