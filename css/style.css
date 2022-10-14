@@ -539,6 +539,23 @@
   border: 1px solid transparent;
   border-radius: 6px;
 }
+.contact .container .contact-content .row textarea.form-control {
+  background-color: #f7f7f7;
+  margin-bottom: 24px;
+  font-size: 18px;
+  padding: 12px 20px;
+  line-height: 28px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  min-height: 200px;
+}
+.contact .container .contact-content .row textarea.form-control:focus {
+  outline: none;
+  border: 1px solid #ff6600;
+  background: #fff;
+  box-shadow: none;
+}
 .contact .container .contact-btn {
   text-align: right;
 }
