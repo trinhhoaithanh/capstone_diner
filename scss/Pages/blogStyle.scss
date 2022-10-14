@@ -220,7 +220,7 @@
                                 font-weight: $fw-0;
                                 .current{
                                     
-                                    background-color: $color-orange-0 !important;
+                                    // background-color: $color-orange-0 !important;
                                     
                                 }
                                 a{
@@ -236,8 +236,9 @@
                 background-color: $bg-grey-1;
 
                 .sticky{
-                    .sidebar .popular-post{
+                    .popular-post{
                     background-color: $bg-grey-1;
+                    margin-top: 45px;
                     .sidebar-title{
                         .title-left{
                             font-size: 26px;
@@ -261,24 +262,41 @@
                                     }
                                 }
                             }
-                            .col-5{
-                                img{
-
-                                }
-                            }
-                            .col-7{
-                                a{
-                                    text-decoration: none;
-                                }
-                                .post-info{
-                                        
-                                }
-                            }
                         }
                         
                     }
                 }
-                .sidebar .blog-category{
+                .popular-post{
+                    .sidebar-title{
+                        .title-left{}
+                    }
+                    .post{
+                        padding: 0;
+                        .row{
+                            .post-thumb{
+                                img{
+                                    border-radius: $border-radius-0;
+                                }
+                            }
+                            .col-7{
+                                padding-top: 66px;
+                                a{
+                                    text-decoration: none;
+                                    
+                                    line-height: 28px;
+                                    display: inline-block;
+                                    margin-bottom: 10px;
+                                   
+                                    @include text($color-black-0,$fs-text,$fw-0);
+                                }
+                                .post-info{
+
+                                }
+                            }
+                        }
+                    }
+                }
+                .blog-category{
                     background: $bg-grey-1;
                     .sidebar-title{
                         
@@ -286,10 +304,16 @@
                             font-size: 26px;
                             font-weight: $fw-heading-c2;
                         }
+                    }
                         .blog-cat{
                             
                             li{
-                                a{}
+                                list-style: square;
+                                @include text($color-black-1,$fs-text,500);
+                                a{
+                                    text-decoration: none;
+                                    @include text($color-black-1,$fs-text,500);
+                                }
                             }
                         }
                     }
@@ -304,7 +328,9 @@
                             font-weight: $fw-heading-c2;
                         }
                         a{
-                            img{}
+                            img{
+
+                            }
                         }
                     }
                 }
@@ -313,6 +339,6 @@
                 }
             }
         }
-    }
+    
 //FOOTER
 @import "../Layouts/footer";

@@ -2218,9 +2218,6 @@
   border-radius: 6px;
   font-weight: 700;
 }
-.blog .container .blog-content .blog-left .row .pagination-wrapper .page-pagination li .current {
-  background-color: #ff6600 !important;
-}
 .blog .container .blog-content .blog-left .row .pagination-wrapper .page-pagination li a {
   text-decoration: none;
   color: #5B606C;
@@ -2228,19 +2225,20 @@
 .blog .container .blog-content .blog-right {
   background-color: #f7f7f7;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar .popular-post {
+.blog .container .blog-content .blog-right .sticky .popular-post {
   background-color: #f7f7f7;
+  margin-top: 45px;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar .popular-post .sidebar-title .title-left {
+.blog .container .blog-content .blog-right .sticky .popular-post .sidebar-title .title-left {
   font-size: 26px;
   font-weight: 600;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar .popular-post .sidebar-title .row .col-6 .post-recipe .post-thumb img {
+.blog .container .blog-content .blog-right .sticky .popular-post .sidebar-title .row .col-6 .post-recipe .post-thumb img {
   width: 100%;
   height: auto;
   border-radius: 6px;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar .popular-post .sidebar-title .row .col-6 .post-recipe .post-thumb .text-small {
+.blog .container .blog-content .blog-right .sticky .popular-post .sidebar-title .row .col-6 .post-recipe .post-thumb .text-small {
   display: block;
   line-height: 22px;
   margin-top: 10px;
@@ -2248,20 +2246,47 @@
   font-size: 18px;
   font-weight: 700;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar .popular-post .sidebar-title .row .col-7 a {
-  text-decoration: none;
+.blog .container .blog-content .blog-right .sticky .popular-post .post {
+  padding: 0;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar .blog-category {
+.blog .container .blog-content .blog-right .sticky .popular-post .post .row .post-thumb img {
+  border-radius: 6px;
+}
+.blog .container .blog-content .blog-right .sticky .popular-post .post .row .col-7 {
+  padding-top: 66px;
+}
+.blog .container .blog-content .blog-right .sticky .popular-post .post .row .col-7 a {
+  text-decoration: none;
+  line-height: 28px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #232121;
+  font-size: 18px;
+  font-weight: 700;
+}
+.blog .container .blog-content .blog-right .sticky .blog-category {
   background: #f7f7f7;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar .blog-category .sidebar-title .title-left {
+.blog .container .blog-content .blog-right .sticky .blog-category .sidebar-title .title-left {
   font-size: 26px;
   font-weight: 600;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar {
+.blog .container .blog-content .blog-right .sticky .blog-category .blog-cat li {
+  list-style: square;
+  color: rgba(22, 28, 45, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+}
+.blog .container .blog-content .blog-right .sticky .blog-category .blog-cat li a {
+  text-decoration: none;
+  color: rgba(22, 28, 45, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+}
+.blog .container .blog-content .blog-right .sidebar {
   background: #f7f7f7;
 }
-.blog .container .blog-content .blog-right .sticky .sidebar .sidebar-title .title-left {
+.blog .container .blog-content .blog-right .sidebar .sidebar-title .title-left {
   font-size: 26px;
   font-weight: 600;
 }
@@ -2458,4 +2483,4 @@
 }
 .contact .container {
   padding-top: 48px;
-}
+}/*# sourceMappingURL=style.css.map */
