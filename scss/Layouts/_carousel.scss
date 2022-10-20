@@ -31,10 +31,17 @@
                 margin-bottom: $margin-2;
             }
 
-            a.btn-white {
-                
-                i {}
-            }
+            // a.btn-white {
+            //     @include styleButton($color-white-0, transparent, $bg-color-0, $fs-0, $fw-0, $padding-0, $padding-1, $border-radius-0);
+            //     transition: all .5s ease-in-out;
+            //     cursor: pointer;
+
+            //     &:hover {
+            //         @include styleButton($color-orange-0, $bg-color-0, $bg-color-0, $fs-0, $fw-0, $padding-0, $padding-1, $border-radius-0);
+            //     }
+
+            //     i {}
+            // }
         }
     }
 }

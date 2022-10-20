@@ -91,6 +91,7 @@
   line-height: 28px;
   margin-bottom: 48px;
 }
+
 .about {
   padding: 48px 0;
 }
@@ -968,7 +969,6 @@
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-
 .btn-white:hover {
   color: #ff6600;
   background-color: #fff;
@@ -1436,7 +1436,6 @@
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-
 .btn-white:hover {
   color: #ff6600;
   background-color: #fff;
@@ -2021,7 +2020,6 @@
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-
 .btn-white:hover {
   color: #ff6600;
   background-color: #fff;
