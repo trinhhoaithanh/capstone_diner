@@ -27,6 +27,9 @@
 }
 .header .container .col-4 .logo h1 {
   color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 .header .container .col-8 .row .col-9 .menu ul li {
   list-style: none;
