@@ -73,3 +73,11 @@
     }
 }
 
+.owl-theme .owl-dots .owl-dot span{
+    position: relative;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: $bg-orange;
+}
+

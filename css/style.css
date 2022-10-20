@@ -781,6 +781,14 @@
   margin-top: 4px;
 }
 
+.owl-theme .owl-dots .owl-dot span {
+  position: relative;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #ff6600;
+}
+
 .footer {
   background: #000;
   padding: 48px 0;
