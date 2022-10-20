@@ -758,6 +758,12 @@
   font-style: italic;
   letter-spacing: 1px;
 }
+.testimonials .container .testimonials-slider .testimonials-carousel .myItem .testimonials-content blockquote q::before {
+  font-size: 50px;
+  color: #ff6600;
+  display: block;
+  font-family: initial;
+}
 .testimonials .container .testimonials-slider .testimonials-carousel .myItem .testimonials-content p {
   color: rgba(22, 28, 45, 0.7);
   font-size: 18px;
@@ -2483,4 +2489,4 @@
 }
 .contact .container {
   padding-top: 48px;
-}/*# sourceMappingURL=style.css.map */
+}
